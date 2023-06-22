@@ -47,7 +47,7 @@ h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*place img selector above the img.team so as not to override the img.team element*/
 img {
     display: block;
     margin: 10px auto;
@@ -62,7 +62,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*created a contextual selector for the team image to differentiate it from the general img element*/
 img.team {
     max-width: 100%;
     height: auto;
@@ -77,13 +77,14 @@ img.team {
     float: right;
     margin-left: 25px;
 }
-
+/*changed classes to target the semantic tags for: header, article, section, aside, footer*/
+/*instance of repeated styles - assigned those HTML elements to their respective style*/
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*instance of repeated styles - assigned those HTML elements to their respective style*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,6 +99,7 @@ section {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/*instance of repeated styles - assigned those HTML elements to their respective style*/
 .services {
         margin-bottom: 20px;
         padding: 50px;
