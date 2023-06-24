@@ -12,7 +12,7 @@
 
 [View the webpage](https://chlarson74.github.io/refactor-homework/)
 
-The project is a refactoring of a web page. The Search Engine Optimization techinques utilized are begining level. The web page is built and commented to bring the original files closer to best practices.
+The project is a refactoring of a web page. The Search Engine Optimization techinques utilized are beginning level. The web page is built and commented to bring the original files closer to best practices.
 
 Work completed:
 - reduced the pixel density of the provided images to 72ppi for faster page load speed.
